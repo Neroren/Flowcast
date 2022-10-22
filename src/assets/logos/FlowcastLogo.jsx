@@ -1,4 +1,4 @@
-export const LogoIcon = () => (
+export const FlowcastLogo = () => (
   <svg
     width="40"
     height="40"
