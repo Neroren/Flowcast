@@ -19,14 +19,16 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="flex justify-start items-center grow basis-0">
-            <div className="text-white mr-2 text-6xl">
-              <FlowcastLogo />
+          <a className="navbar-link" href="#home" aria-label="Home">
+            <div className="flex justify-start items-center grow basis-0">
+              <div className="text-white mr-2 text-6xl">
+                <FlowcastLogo />
+              </div>
+              <div className="text-white font-['Inter'] font-bold text-xl">
+                Flowcast
+              </div>
             </div>
-            <div className="text-white font-['Inter'] font-bold text-xl">
-              Flowcast
-            </div>
-          </div>
+          </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
