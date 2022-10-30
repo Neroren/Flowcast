@@ -1,6 +1,6 @@
 # Flowcast
 
-Dark themed website built on AstroJS, designed for saas/startup business.
+Dark themed website template built on AstroJS, designed for saas/startup business.
 
 ## Tech stack:
 
@@ -17,13 +17,9 @@ Astro, React, Tailwind, Framer Motion
 │   │   ├── images
 │   │   └── logos
 │   ├── components
-│   │
 │   ├── layouts
-│   │
 │   ├──  pages
-│   │
 │   └── styles
-│
 └── package.json
 ```
 
